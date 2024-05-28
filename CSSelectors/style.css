@@ -1,0 +1,46 @@
+.custom-p::before {
+    content: url('https://sentez.com/wp-content/uploads/slogowhite.png');
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 30px;
+}
+
+.custom-p::after {
+    content: url('https://sentez.com/wp-content/uploads/slogowhite.png');
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 30px;
+}
+
+::selection {
+    color: darkred;
+    background-color: gold;
+}
+
+.custom-ul>p:first-child {
+    color: green;
+}
+
+.custom-ul>h3:last-child {
+    color: deeppink;
+}
+
+.custom-ul>li:nth-child(2) {
+    color: blueviolet;
+}
+
+.custom-ul>.custom-li:not(.custom-day) {
+    background-color: coral;
+}
+
+input[name="textInput"] {
+    color: blue;
+}
+
+input[name="textInput"]:not(input#textInput2) {
+    color: red;
+}
+
+/* https://www.w3schools.com/cssref/css_selectors.php */

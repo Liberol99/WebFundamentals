@@ -1,0 +1,24 @@
+.scene {
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.seat {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: lightslategrey;
+}
+
+.selected-seat {
+    background-color: gold;
+}
+
+.seat-row {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin: 10px 0px;
+}

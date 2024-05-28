@@ -1,0 +1,4 @@
+#login-form span,
+#register-form span {
+    cursor: pointer;
+}
